@@ -28,8 +28,10 @@ h1, h2, p {
 
 img, video, iframe, audio {
     display: block;
-    border-radius: 10px;
-    max-width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+
 }
 
 /* Float the image to the left */
