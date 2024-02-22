@@ -1,0 +1,50 @@
+body {
+    font-size: 20px;
+    background-color: #2f2f2f;
+    color:aliceblue;
+    margin: 0;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+
+/* Set a specific width for the image */
+img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1, h2, p {
+    text-align: left;
+}
+
+img, video, iframe, audio {
+    display: block;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Float the image to the left */
+img {
+    float: right;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    img {
+        float: none;
+        margin-right: 0;
+        max-width: 100%; /* Ensure images take full width on smaller screens */
+    }
+}
